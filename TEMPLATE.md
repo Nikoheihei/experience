@@ -1,21 +1,9 @@
 # Experience Log — YYYY-MM-DD
 
-## Situation
-
-What happened? Include enough context for your future self to understand the situation.
-
-## Lessons learned
+## Lessons Learned
 
 -
 
-## What I would do differently
+## 经验总结
 
 -
-
-## Action items
-
-- [ ]
-
-## Keywords
-
-`keyword` `keyword`

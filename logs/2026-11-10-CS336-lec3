@@ -1,0 +1,3 @@
+CS336 lecture3 architecture:
+1.post-Norm&pre-Norm; pre-Norm可以keep residual stream clean。
+2.LayerNorm&RMSNorm：LayerNorm将向量各维度的均值平移到 0，而RMSNorm只会缩放尺寸

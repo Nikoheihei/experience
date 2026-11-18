@@ -17,5 +17,5 @@
 
     upcycling：已经训练好的稠密模型，改造成 MoE 模型，再继续训练。
 
-    DeepSeek v1-v2-v3: v2和v1相比架构基本没变，但是先选择了top-m个设备再在每个设备内选择top-k个experts，从而控制多个experts可能带来的沟通成本,同时损失函数追加了对输出通信成本的考虑。v3的MoE是sigmoid其余见下图。
+    DeepSeek v1-v2-v3: v2和v1相比架构基本没变，但是先选择了top-m个设备再在每个设备内选择top-k个experts，从而控制多个experts可能带来的沟通成本,同时损失函数追加了对输出通信成本的考虑。v3的MoE是sigmoid其余见下图(虽然MTP说一次预测两个token但是实际上还是只是1个)。
 
